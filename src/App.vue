@@ -115,7 +115,7 @@ export default {
         this.berriesDropped.push(event.data);
       }
       else{
-        this.dismissibleAlert = `${event.data.title} are not a berries fruit type`
+        this.dismissibleAlert = `${event.data.title} are not a berry fruit type`
         this.showDismissibleAlert = true; 
       }
     },
